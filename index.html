@@ -11,41 +11,59 @@
 
 <body>
   <!-- Header -->
-  <header>
-    <h1>About Me</h1>
-    <p>
-      Add some box styling to the product cards to make them POP!
-    </p>
-  </header>
+  <div class="header">
+    <header>
+      <h1>About Me</h1>
+    </header>
+  </div>
 
   <!-- Navbar -->
-  <nav>
-    <a href="#">About Me</a>
-    <a href="#">Resume</a>
-    <a href="#">Contact</a>
-    <a href="#">Work</a>
-  </nav>
+  <div class="header">
+    <div>
+      <ul> 
+        <li> 
+          <a href="About Me">About Me</a>
+        </li>
+        <li>
+          <a href="Resume">Resume</a> 
+        </li>
+        <li>
+          <a href="Contact">Contact</a>
+        </li>
+        <li>
+          <a href="Work">Work</a> 
+        </li>
+      </ul>
+    </div>
+  </div>
 
   <!-- Body -->
   <main>
     <!-- images for cards -->
-    <div class="Tags">
+    <div class="Content">
       <section class="card">
-        <h2>About Me</h2>
-        <button> <img src="./assets/images/PERSON.png" alt="PERSON" /> </button>
+        <article id="About Me" class = "About me">  
+          <h3>About Me</h3>
+            <button> <img src="./assets/images/PERSON.png" alt="PERSON"/> </button>
+          </section>
+      <section class="card">
+        <article id="resume" class = "resume">
+          <h3>Resume</h3>
+          <button><img src="./assets/images/JOB.png" alt="sign saying job"/> </button>
+        </article>
       </section>
       <section class="card">
-        <h2>Resume</h2>
-        <button><img src="./assets/images/JOB.png" alt="sign saying job" /></button>
+        <article id="contact" class = "contact">
+          <h3>Contact</h3>
+          <button><img src="./assets/images/CALL.png" alt="phone with outgoing call" /></button>
+        </article>
       </section>
       <section class="card">
-        <h2>Contact</h2>
-        <button><img src="./assets/images/CALL.png" alt="phone with outgoing call" /></button>
-      </section>
-      <section class="card">
-        <h2>Work</h2>
-        <button><img src="./assets/images/WORK.png" alt="image of desk and computer screen" /></button>
-      </section>
+        <article id = "work" class = "work">
+          <h3>Work</h3>
+          <button><img src="./assets/images/WORK.png" alt="image of desk and computer screen" /></button>
+        </article>
+        </section>
     </div>
 
  
@@ -54,8 +72,7 @@
   <!-- Footer -->
   <footer>
     <h3>
-      Open Chrome DevTools --> Toggle device toolbar --> Resize the browser
-      window!
+      O
     </h3>
   </footer>
 </body>
