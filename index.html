@@ -2,78 +2,77 @@
 <html>
 
 <head>
-  <title>About Me</title>
+  <title>Ruth Kim's Portfolio</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
 </head>
 
 <body>
   <!-- Header -->
   <div class="header">
     <header>
-      <h1>About Me</h1>
+      <h1>Ruth Kim</h1>
+  <!-- Navbar -->
+      <nav>
+        <ul>
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href=#contact">Contact</a></li>      
+        </ul>
+      </nav>
     </header>
   </div>
 
-  <!-- Navbar -->
-  <div class="header">
-    <div>
-      <ul> 
-        <li> 
-          <a href="About Me">About Me</a>
-        </li>
-        <li>
-          <a href="Resume">Resume</a> 
-        </li>
-        <li>
-          <a href="Contact">Contact</a>
-        </li>
-        <li>
-          <a href="Work">Work</a> 
-        </li>
-      </ul>
-    </div>
-  </div>
-
   <!-- Body -->
-  <main>
-    <!-- images for cards -->
-    <div class="Content">
-      <section class="card">
-        <article id="About Me" class = "About me">  
-          <h3>About Me</h3>
-            <button> <img src="./assets/images/PERSON.png" alt="PERSON"/> </button>
-          </section>
-      <section class="card">
-        <article id="resume" class = "resume">
-          <h3>Resume</h3>
-          <button><img src="./assets/images/RESUME.png" alt="sign saying job"/> </button>
-        </article>
-      </section>
-      <section class="card">
-        <article id="contact" class = "contact">
-          <h3>Contact</h3>
-          <button><img src="./assets/images/CONTACT.png" alt="phone with outgoing call" /></button>
-        </article>
-      </section>
-      <section class="card">
-        <article id = "work" class = "work">
-          <h3>Work</h3>
-          <button><img src="./assets/images/WORK.png" alt="image of desk and computer screen" /></button>
-        </article>
-        </section>
-    </div>
+  <main id="main">
+    <!-- Sidebar -->
+    <aside id="aboutme">
+      <h3>About Me</h3>
+      <img src="./assets/images/profilephoto.jpeg" alt="PERSON"/>
+      <p>My name is Ruth. I am learning how to code.</p>
+    </aside>
+      
 
- 
-  </main>
+<!--Projects and Work --> 
+<div id="work" class="box">
+  <section class="projects">
+  
+  <h4>Project 1: Horiseon</h4>
+  <a target="_blank" href=https://ruthyk.github.io/Ruth-s-week-1-repository/> 
+    <img class="horiseonimg" src="assets/images/horiseonimg.png" alt="image of landing page of first project"  </a>
+  </section>
+
+  <section class="projects">
+    <h4>Project 2: Password Generator</h4>
+    <a href=https://ruthyk.github.io/HW-WEEK-3/"> 
+      <img class= pwgenimg" src="assets/images/pwgenimg.png" alt = "landing page of password generator project"
+    </a>
+  </section>
+
+  <section class="projects">    
+    <h4> Project 3: Scheduler </h4>
+    <a href=https://ruthyk.github.io/HW-WEEK-5/"> 
+      <img class= scheduler" src="assets/images/scheduler.png" alt = "landing page of password generator project"
+    </a>
+  </section>
+
+</div>
+
+<div>
+  <section>
+    <article id="contact">
+      <h4>Contact</h4>
+      <p><span>Email:</span> <a target="_blank" href=mailto:ruth.y.kim93@gmail.com">ruth.y.kim93@gmailcom</a>
+    </article>
+  </section>
+</div>
 
   <!-- Footer -->
   <footer>
-    <h3>
-      O
-    </h3>
+    <h5>&copy Ruth Kim's portfolio</h5>
   </footer>
 </body>
 
