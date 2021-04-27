@@ -131,6 +131,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   position: relative;
+<<<<<<< HEAD
 }
 
 article {
@@ -168,10 +169,39 @@ footer {
   width: 100%;
   bottom: 0;
   padding: 10px;
+=======
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+>>>>>>> 1bd345db4e344431004e09bd5eecc0e639b07b87
   text-align: center;
-  background: var(--dark-blue);
+  padding: 2%;
+  background: var(--black);
   color: var(--white);
-  margin-top: auto;
+  align-items: center;
+  padding: 2%;
+}
+
+img {
+  width: 250px;
+  margin-bottom: 25px;
+}
+
+a img:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 10px grey;
+}
+
+.box {
+  flex: 3;
+  background: var(--white);
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: left;
 }
 
 .card {
@@ -190,6 +220,19 @@ footer {
   width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+footer {
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+  background: var(--dark-blue);
+  color: var(--white);
+  margin-top: auto;
+}
+
+>>>>>>> 1bd345db4e344431004e09bd5eecc0e639b07b87
 @media (max-width: 768px) {
   main,
   nav {
