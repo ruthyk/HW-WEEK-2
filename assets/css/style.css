@@ -15,7 +15,6 @@ body {
   padding: 20px;
   align-items: center;
   line-height: 1.0; 
-  background-color: aliceblue;
 }
 
 header {
@@ -25,7 +24,7 @@ header {
   color: var(--white);
   font-size: 30px;
   margin-bottom: 0px;
-}
+  }
 
 header h1 {
   background: var(--dark-blue);
@@ -113,6 +112,7 @@ h2 {
   margin-bottom: 10px;
   margin: 0;
   margin-top: 0.5em;
+  text-align: center;
 }
 
 h3 {
@@ -129,7 +129,8 @@ h3 {
  
 h4 {
   font-size: 1.1rem;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   text-align: left;
 }
 
@@ -220,4 +221,4 @@ footer {
     width: 100%;
   }
 
-}
+ }
