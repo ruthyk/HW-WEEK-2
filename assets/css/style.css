@@ -15,6 +15,7 @@ body {
   padding: 20px;
   align-items: center;
   line-height: 1.0; 
+  background-color: aliceblue;
 }
 
 header {
@@ -86,7 +87,10 @@ nav a:hover {
   clear: both;
 }
 
-
+.work {
+  background-color: aliceblue;
+  padding: 10px;
+}
 
 aside {
   flex: 1 0;
@@ -125,7 +129,7 @@ h3 {
  
 h4 {
   font-size: 1.1rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: left;
 }
 
@@ -153,7 +157,7 @@ nav a:hover {
   border: 3px solid var(--framecolor);
 }
 
-main {
+.main {
   max-width: 1000px;
   margin: auto;
 }
@@ -169,36 +173,15 @@ article {
   padding: 2%;
 }
 
-img {
-  width: 250px;
-  margin-bottom: 25px;
-}
-
 a img:hover {
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 10px grey;
 }
 
-footer {
-  width: 100%;
-  bottom: 0;
-  padding: 10px;
-  text-align: center;
-  padding: 2%;
-  background: var(--black);
-  color: var(--white);
-  align-items: center;
-  padding: 2%;
-}
-
 img {
   width: 250px;
+  height: 250px;
   margin-bottom: 25px;
-}
-
-a img:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 10px grey;
 }
 
 .box {
@@ -209,6 +192,18 @@ a img:hover {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: left;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+  padding: 2%;
+  background: var(--black);
+  color: var(--black);
+  align-items: center;
+  padding: 2%;
 }
 
 @media screen and (max-width: 900px) {
